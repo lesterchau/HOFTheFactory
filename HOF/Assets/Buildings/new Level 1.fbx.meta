@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 2733d57916ced164e903a9e96bea54d3
+timeCreated: 1498353796
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Brick pillar
+    100002: Brick pillar.001
+    100004: Brick pillar.002
+    100006: Brick pillar.003
+    100008: Brick pillar.004
+    100010: Brick pillar.005
+    100012: Brick pillar.006
+    100014: Brick pillar.007
+    100016: Brick pillar.008
+    100018: Brick pillar.009
+    100020: Brick pillar.010
+    100022: Brick pillar.011
+    100024: Brick pillar.012
+    100026: Brick pillar.013
+    100028: Brick pillar.014
+    100030: Brick pillar.015
+    100032: Brick pillar.016
+    100034: Brick pillar.017
+    100036: Brick pillar.018
+    100038: Brick pillar.019
+    100040: Brick pillar.020
+    100042: Brick pillar.021
+    100044: Brick wall
+    100046: Brick wall.001
+    100048: Brick wall.002
+    100050: Brick wall.003
+    100052: Brick wall.004
+    100054: Brick wall.005
+    100056: Brick wall.006
+    100058: Brick wall.007
+    100060: Brick wall.008
+    100062: Brick wall.009
+    100064: Brick wall.010
+    100066: Brick wall.011
+    100068: Brick wall.012
+    100070: Brick wall.013
+    100072: Brick wall.014
+    100074: Brick wall.015
+    100076: Brick wall.016
+    100078: Brick wall.017
+    100080: Brick wall.018
+    100082: Brick wall.019
+    100084: Brick wall.020
+    100086: Brick wall.021
+    100088: Brick wall.022
+    100090: Brick wall.023
+    100092: Brick wall.024
+    100094: Brick wall.025
+    100096: Brick wall.026
+    100098: Brick wall.027
+    100100: Brick wall.028
+    100102: Brick wall.029
+    100104: Brick wall.030
+    100106: Brick wall.031
+    100108: Brick wall.032
+    100110: Brick wall.033
+    100112: Brick wall.034
+    100114: Brick wall.035
+    100116: Brick wall.036
+    100118: Brick wall.037
+    100120: Brick wall.038
+    100122: Brick wall.039
+    100124: Brick wall.040
+    100126: Brick wall.041
+    100128: Brick wall.042
+    100130: Brick wall.043
+    100132: Brick wall.044
+    100134: Brick wall.045
+    100136: Brick wall.046
+    100138: Brick wall.047
+    100140: Brick wall.048
+    100142: Brick wall.049
+    100144: Brick wall.050
+    100146: Brick wall.051
+    100148: Brick wall.052
+    100150: Brick wall.053
+    100152: Brick wall.054
+    100154: Brick wall.055
+    100156: Brick wall.056
+    100158: Brick wall.057
+    100160: Brick wall.058
+    100162: Brick wall.059
+    100164: Brick wall.060
+    100166: Brick wall.061
+    100168: Brick wall.062
+    100170: Brick wall.063
+    100172: Brick wall.064
+    100174: Brick wall.065
+    100176: Brick wall.066
+    100178: Ceiling.000
+    100180: Ceiling.001
+    100182: Ceiling.002
+    100184: Ceiling.003
+    100186: Cube
+    100188: Cube.001
+    100190: Doors
+    100192: 'Exit '
+    100194: Green door.001
+    100196: //RootNode
+    100198: Pass
+    100200: Pass.001
+    100202: Pass.002
+    100204: Pass.003
+    100206: Pass.004
+    100208: Pass.005
+    100210: Pass.006
+    100212: Pass.007
+    100214: Pass.008
+    100216: Pass.009
+    100218: Pass.010
+    100220: Pass.011
+    100222: Pass.012
+    100224: Pass.013
+    100226: Pass.014
+    100228: Pass.015
+    100230: Pass.016
+    100232: Pass.018
+    100234: Point
+    400000: Brick pillar
+    400002: Brick pillar.001
+    400004: Brick pillar.002
+    400006: Brick pillar.003
+    400008: Brick pillar.004
+    400010: Brick pillar.005
+    400012: Brick pillar.006
+    400014: Brick pillar.007
+    400016: Brick pillar.008
+    400018: Brick pillar.009
+    400020: Brick pillar.010
+    400022: Brick pillar.011
+    400024: Brick pillar.012
+    400026: Brick pillar.013
+    400028: Brick pillar.014
+    400030: Brick pillar.015
+    400032: Brick pillar.016
+    400034: Brick pillar.017
+    400036: Brick pillar.018
+    400038: Brick pillar.019
+    400040: Brick pillar.020
+    400042: Brick pillar.021
+    400044: Brick wall
+    400046: Brick wall.001
+    400048: Brick wall.002
+    400050: Brick wall.003
+    400052: Brick wall.004
+    400054: Brick wall.005
+    400056: Brick wall.006
+    400058: Brick wall.007
+    400060: Brick wall.008
+    400062: Brick wall.009
+    400064: Brick wall.010
+    400066: Brick wall.011
+    400068: Brick wall.012
+    400070: Brick wall.013
+    400072: Brick wall.014
+    400074: Brick wall.015
+    400076: Brick wall.016
+    400078: Brick wall.017
+    400080: Brick wall.018
+    400082: Brick wall.019
+    400084: Brick wall.020
+    400086: Brick wall.021
+    400088: Brick wall.022
+    400090: Brick wall.023
+    400092: Brick wall.024
+    400094: Brick wall.025
+    400096: Brick wall.026
+    400098: Brick wall.027
+    400100: Brick wall.028
+    400102: Brick wall.029
+    400104: Brick wall.030
+    400106: Brick wall.031
+    400108: Brick wall.032
+    400110: Brick wall.033
+    400112: Brick wall.034
+    400114: Brick wall.035
+    400116: Brick wall.036
+    400118: Brick wall.037
+    400120: Brick wall.038
+    400122: Brick wall.039
+    400124: Brick wall.040
+    400126: Brick wall.041
+    400128: Brick wall.042
+    400130: Brick wall.043
+    400132: Brick wall.044
+    400134: Brick wall.045
+    400136: Brick wall.046
+    400138: Brick wall.047
+    400140: Brick wall.048
+    400142: Brick wall.049
+    400144: Brick wall.050
+    400146: Brick wall.051
+    400148: Brick wall.052
+    400150: Brick wall.053
+    400152: Brick wall.054
+    400154: Brick wall.055
+    400156: Brick wall.056
+    400158: Brick wall.057
+    400160: Brick wall.058
+    400162: Brick wall.059
+    400164: Brick wall.060
+    400166: Brick wall.061
+    400168: Brick wall.062
+    400170: Brick wall.063
+    400172: Brick wall.064
+    400174: Brick wall.065
+    400176: Brick wall.066
+    400178: Ceiling.000
+    400180: Ceiling.001
+    400182: Ceiling.002
+    400184: Ceiling.003
+    400186: Cube
+    400188: Cube.001
+    400190: Doors
+    400192: 'Exit '
+    400194: Green door.001
+    400196: //RootNode
+    400198: Pass
+    400200: Pass.001
+    400202: Pass.002
+    400204: Pass.003
+    400206: Pass.004
+    400208: Pass.005
+    400210: Pass.006
+    400212: Pass.007
+    400214: Pass.008
+    400216: Pass.009
+    400218: Pass.010
+    400220: Pass.011
+    400222: Pass.012
+    400224: Pass.013
+    400226: Pass.014
+    400228: Pass.015
+    400230: Pass.016
+    400232: Pass.018
+    400234: Point
+    2300000: Brick pillar
+    2300002: Brick pillar.001
+    2300004: Brick pillar.002
+    2300006: Brick pillar.003
+    2300008: Brick pillar.004
+    2300010: Brick pillar.005
+    2300012: Brick pillar.006
+    2300014: Brick pillar.007
+    2300016: Brick pillar.008
+    2300018: Brick pillar.009
+    2300020: Brick pillar.010
+    2300022: Brick pillar.011
+    2300024: Brick pillar.012
+    2300026: Brick pillar.013
+    2300028: Brick pillar.014
+    2300030: Brick pillar.015
+    2300032: Brick pillar.016
+    2300034: Brick pillar.017
+    2300036: Brick pillar.018
+    2300038: Brick pillar.019
+    2300040: Brick pillar.020
+    2300042: Brick pillar.021
+    2300044: Brick wall
+    2300046: Brick wall.001
+    2300048: Brick wall.002
+    2300050: Brick wall.003
+    2300052: Brick wall.004
+    2300054: Brick wall.005
+    2300056: Brick wall.006
+    2300058: Brick wall.007
+    2300060: Brick wall.008
+    2300062: Brick wall.009
+    2300064: Brick wall.010
+    2300066: Brick wall.011
+    2300068: Brick wall.012
+    2300070: Brick wall.013
+    2300072: Brick wall.014
+    2300074: Brick wall.015
+    2300076: Brick wall.016
+    2300078: Brick wall.017
+    2300080: Brick wall.018
+    2300082: Brick wall.019
+    2300084: Brick wall.020
+    2300086: Brick wall.021
+    2300088: Brick wall.022
+    2300090: Brick wall.023
+    2300092: Brick wall.024
+    2300094: Brick wall.025
+    2300096: Brick wall.026
+    2300098: Brick wall.027
+    2300100: Brick wall.028
+    2300102: Brick wall.029
+    2300104: Brick wall.030
+    2300106: Brick wall.031
+    2300108: Brick wall.032
+    2300110: Brick wall.033
+    2300112: Brick wall.034
+    2300114: Brick wall.035
+    2300116: Brick wall.036
+    2300118: Brick wall.037
+    2300120: Brick wall.038
+    2300122: Brick wall.039
+    2300124: Brick wall.040
+    2300126: Brick wall.041
+    2300128: Brick wall.042
+    2300130: Brick wall.043
+    2300132: Brick wall.044
+    2300134: Brick wall.045
+    2300136: Brick wall.046
+    2300138: Brick wall.047
+    2300140: Brick wall.048
+    2300142: Brick wall.049
+    2300144: Brick wall.050
+    2300146: Brick wall.051
+    2300148: Brick wall.052
+    2300150: Brick wall.053
+    2300152: Brick wall.054
+    2300154: Brick wall.055
+    2300156: Brick wall.056
+    2300158: Brick wall.057
+    2300160: Brick wall.058
+    2300162: Brick wall.059
+    2300164: Brick wall.060
+    2300166: Brick wall.061
+    2300168: Brick wall.062
+    2300170: Brick wall.063
+    2300172: Brick wall.064
+    2300174: Brick wall.065
+    2300176: Brick wall.066
+    2300178: Ceiling.000
+    2300180: Ceiling.001
+    2300182: Ceiling.002
+    2300184: Ceiling.003
+    2300186: Cube
+    2300188: Cube.001
+    2300190: Doors
+    2300192: 'Exit '
+    2300194: Green door.001
+    2300196: Pass
+    2300198: Pass.001
+    2300200: Pass.002
+    2300202: Pass.003
+    2300204: Pass.004
+    2300206: Pass.005
+    2300208: Pass.006
+    2300210: Pass.007
+    2300212: Pass.008
+    2300214: Pass.009
+    2300216: Pass.010
+    2300218: Pass.011
+    2300220: Pass.012
+    2300222: Pass.013
+    2300224: Pass.014
+    2300226: Pass.015
+    2300228: Pass.016
+    2300230: Pass.018
+    3300000: Brick pillar
+    3300002: Brick pillar.001
+    3300004: Brick pillar.002
+    3300006: Brick pillar.003
+    3300008: Brick pillar.004
+    3300010: Brick pillar.005
+    3300012: Brick pillar.006
+    3300014: Brick pillar.007
+    3300016: Brick pillar.008
+    3300018: Brick pillar.009
+    3300020: Brick pillar.010
+    3300022: Brick pillar.011
+    3300024: Brick pillar.012
+    3300026: Brick pillar.013
+    3300028: Brick pillar.014
+    3300030: Brick pillar.015
+    3300032: Brick pillar.016
+    3300034: Brick pillar.017
+    3300036: Brick pillar.018
+    3300038: Brick pillar.019
+    3300040: Brick pillar.020
+    3300042: Brick pillar.021
+    3300044: Brick wall
+    3300046: Brick wall.001
+    3300048: Brick wall.002
+    3300050: Brick wall.003
+    3300052: Brick wall.004
+    3300054: Brick wall.005
+    3300056: Brick wall.006
+    3300058: Brick wall.007
+    3300060: Brick wall.008
+    3300062: Brick wall.009
+    3300064: Brick wall.010
+    3300066: Brick wall.011
+    3300068: Brick wall.012
+    3300070: Brick wall.013
+    3300072: Brick wall.014
+    3300074: Brick wall.015
+    3300076: Brick wall.016
+    3300078: Brick wall.017
+    3300080: Brick wall.018
+    3300082: Brick wall.019
+    3300084: Brick wall.020
+    3300086: Brick wall.021
+    3300088: Brick wall.022
+    3300090: Brick wall.023
+    3300092: Brick wall.024
+    3300094: Brick wall.025
+    3300096: Brick wall.026
+    3300098: Brick wall.027
+    3300100: Brick wall.028
+    3300102: Brick wall.029
+    3300104: Brick wall.030
+    3300106: Brick wall.031
+    3300108: Brick wall.032
+    3300110: Brick wall.033
+    3300112: Brick wall.034
+    3300114: Brick wall.035
+    3300116: Brick wall.036
+    3300118: Brick wall.037
+    3300120: Brick wall.038
+    3300122: Brick wall.039
+    3300124: Brick wall.040
+    3300126: Brick wall.041
+    3300128: Brick wall.042
+    3300130: Brick wall.043
+    3300132: Brick wall.044
+    3300134: Brick wall.045
+    3300136: Brick wall.046
+    3300138: Brick wall.047
+    3300140: Brick wall.048
+    3300142: Brick wall.049
+    3300144: Brick wall.050
+    3300146: Brick wall.051
+    3300148: Brick wall.052
+    3300150: Brick wall.053
+    3300152: Brick wall.054
+    3300154: Brick wall.055
+    3300156: Brick wall.056
+    3300158: Brick wall.057
+    3300160: Brick wall.058
+    3300162: Brick wall.059
+    3300164: Brick wall.060
+    3300166: Brick wall.061
+    3300168: Brick wall.062
+    3300170: Brick wall.063
+    3300172: Brick wall.064
+    3300174: Brick wall.065
+    3300176: Brick wall.066
+    3300178: Ceiling.000
+    3300180: Ceiling.001
+    3300182: Ceiling.002
+    3300184: Ceiling.003
+    3300186: Cube
+    3300188: Cube.001
+    3300190: Doors
+    3300192: 'Exit '
+    3300194: Green door.001
+    3300196: Pass
+    3300198: Pass.001
+    3300200: Pass.002
+    3300202: Pass.003
+    3300204: Pass.004
+    3300206: Pass.005
+    3300208: Pass.006
+    3300210: Pass.007
+    3300212: Pass.008
+    3300214: Pass.009
+    3300216: Pass.010
+    3300218: Pass.011
+    3300220: Pass.012
+    3300222: Pass.013
+    3300224: Pass.014
+    3300226: Pass.015
+    3300228: Pass.016
+    3300230: Pass.018
+    4300000: Cube
+    4300002: 'Exit '
+    4300004: Green door.001
+    4300006: Pass.016
+    4300008: Pass.015
+    4300010: Pass.014
+    4300012: Pass.013
+    4300014: Pass.012
+    4300016: Pass.011
+    4300018: Pass.010
+    4300020: Pass.009
+    4300022: Pass.008
+    4300024: Pass.007
+    4300026: Pass.006
+    4300028: Pass.005
+    4300030: Pass.004
+    4300032: Pass.003
+    4300034: Pass.002
+    4300036: Pass.001
+    4300038: Brick pillar.021
+    4300040: Brick pillar.020
+    4300042: Brick pillar.019
+    4300044: Brick pillar.018
+    4300046: Brick pillar.017
+    4300048: Brick pillar.016
+    4300050: Brick pillar.015
+    4300052: Brick pillar.014
+    4300054: Ceiling.003
+    4300056: Ceiling.002
+    4300058: Ceiling.000
+    4300060: Brick wall.066
+    4300062: Brick wall.065
+    4300064: Brick wall.064
+    4300066: Brick wall.063
+    4300068: Brick wall.062
+    4300070: Brick wall.061
+    4300072: Brick wall.051
+    4300074: Brick wall.057
+    4300076: Brick wall.056
+    4300078: Brick wall.055
+    4300080: Brick wall.054
+    4300082: Brick wall.060
+    4300084: Brick wall.059
+    4300086: Brick wall.058
+    4300088: Brick wall.053
+    4300090: Brick wall.052
+    4300092: Brick wall.045
+    4300094: Brick wall.044
+    4300096: Brick wall.043
+    4300098: Brick wall.042
+    4300100: Pass.018
+    4300102: Brick wall.050
+    4300104: Pass
+    4300106: Brick pillar.013
+    4300108: Brick pillar.012
+    4300110: Brick wall.049
+    4300112: Brick wall.047
+    4300114: Brick pillar.011
+    4300116: Brick pillar.010
+    4300118: Brick wall.046
+    4300120: Brick wall.048
+    4300122: Ceiling.001
+    4300124: Cube.001
+    4300126: Doors
+    4300128: Brick wall.036
+    4300130: Brick wall.035
+    4300132: Brick wall.034
+    4300134: Brick wall.031
+    4300136: Brick wall.041
+    4300138: Brick wall.040
+    4300140: Brick wall.018
+    4300142: Brick wall.017
+    4300144: Brick wall.039
+    4300146: Brick wall.038
+    4300148: Brick wall.037
+    4300150: Brick pillar.009
+    4300152: Brick pillar.008
+    4300154: Brick pillar.007
+    4300156: Brick pillar.006
+    4300158: Brick wall.033
+    4300160: Brick wall.032
+    4300162: Brick wall.030
+    4300164: Brick wall.029
+    4300166: Brick wall.028
+    4300168: Brick wall.027
+    4300170: Brick wall.026
+    4300172: Brick wall.025
+    4300174: Brick pillar.005
+    4300176: Brick wall.024
+    4300178: Brick wall.023
+    4300180: Brick wall.022
+    4300182: Brick wall.021
+    4300184: Brick wall.020
+    4300186: Brick wall.019
+    4300188: Brick wall.016
+    4300190: Brick wall.015
+    4300192: Brick pillar.004
+    4300194: Brick pillar.003
+    4300196: Brick pillar.002
+    4300198: Brick pillar.001
+    4300200: Brick wall.014
+    4300202: Brick wall.013
+    4300204: Brick wall.012
+    4300206: Brick wall.011
+    4300208: Brick wall.010
+    4300210: Brick wall.009
+    4300212: Brick wall.008
+    4300214: Brick wall.007
+    4300216: Brick wall.006
+    4300218: Brick wall.005
+    4300220: Brick wall.004
+    4300222: Brick wall.003
+    4300224: Brick wall.002
+    4300226: Brick wall.001
+    4300228: Brick pillar
+    4300230: Brick wall
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

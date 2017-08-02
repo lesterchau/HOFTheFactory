@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 8ea9fa0e57a6b244aa812a2c47947edc
+timeCreated: 1497924708
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube.001
+    100002: Door
+    100004: Door Pindle
+    100006: Door Pindle.001
+    100008: Exit
+    100010: Exit Door
+    100012: Exit Frame
+    100014: Frame
+    100016: //RootNode
+    100018: Plane
+    100020: Room name 2
+    100022: Room1 Frame
+    100024: SAPillar
+    100026: SAPillar.001
+    100028: Start Area
+    100030: Start Area.001
+    100032: Start Area.002
+    400000: Cube.001
+    400002: Door
+    400004: Door Pindle
+    400006: Door Pindle.001
+    400008: Exit
+    400010: Exit Door
+    400012: Exit Frame
+    400014: Frame
+    400016: //RootNode
+    400018: Plane
+    400020: Room name 2
+    400022: Room1 Frame
+    400024: SAPillar
+    400026: SAPillar.001
+    400028: Start Area
+    400030: Start Area.001
+    400032: Start Area.002
+    2300000: Cube.001
+    2300002: Door
+    2300004: Door Pindle
+    2300006: Door Pindle.001
+    2300008: Exit
+    2300010: Exit Door
+    2300012: Exit Frame
+    2300014: Frame
+    2300016: Plane
+    2300018: Room name 2
+    2300020: Room1 Frame
+    2300022: SAPillar
+    2300024: SAPillar.001
+    2300026: Start Area
+    2300028: Start Area.001
+    2300030: Start Area.002
+    3300000: Cube.001
+    3300002: Door
+    3300004: Door Pindle
+    3300006: Door Pindle.001
+    3300008: Exit
+    3300010: Exit Door
+    3300012: Exit Frame
+    3300014: Frame
+    3300016: Plane
+    3300018: Room name 2
+    3300020: Room1 Frame
+    3300022: SAPillar
+    3300024: SAPillar.001
+    3300026: Start Area
+    3300028: Start Area.001
+    3300030: Start Area.002
+    4300000: Plane
+    4300002: Exit Door
+    4300004: Room1 Frame
+    4300006: Exit Frame
+    4300008: Room name 2
+    4300010: Exit
+    4300012: Start Area.002
+    4300014: Start Area.001
+    4300016: SAPillar.001
+    4300018: SAPillar
+    4300020: Frame
+    4300022: Door
+    4300024: Door Pindle
+    4300026: Door Pindle.001
+    4300028: Cube.001
+    4300030: Start Area
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
