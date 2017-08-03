@@ -29,7 +29,6 @@ public class lightFlicker : MonoBehaviour {
 
                 if (Flickering && Time.time > flickerTimer)
                 {
-                    print(Time.time);
                     if (spotLight.enabled)
                     {
                         spotLight.enabled = false;

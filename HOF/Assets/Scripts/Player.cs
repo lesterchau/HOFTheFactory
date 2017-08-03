@@ -231,6 +231,14 @@ public class Player : MonoBehaviour {
         }
     }
 
+    private void OntriggerEnter(Collider other)
+    {
+        if (other.transform.tag == "Danger")
+        {
+            takeDamage(3);
+        }
+    }
+
     public void gameOver()
     {
         dead = true;

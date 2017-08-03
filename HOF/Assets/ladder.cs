@@ -6,7 +6,9 @@ public class ladder : MonoBehaviour {
 
     public Transform Target;
     private GameObject player;
-    private bool playerLock = false;
+    public bool playerLock = false;
+    private bool finishClimb = false;
+    public float moveSpeed = 4;
 
 	// Use this for initialization
 	void Start () {
@@ -15,18 +17,24 @@ public class ladder : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (playerLock)
+        if (playerLock && player.transform.position.y > Target.position.y)
         {
-            if (Input.GetKey("w"))
+            finishClimb = true;
+        }
+
+        if (finishClimb)
+        {
+            if (Vector3.Distance(Target.position, player.transform.position) > 0.1f)
             {
-                if (player.transform.position.y < Target.position.y)
-                {
-                    player.transform.position += transform.up * 0.3f;
-                }
-                else if (player.transform.position.z < Target.position.z)
-                {
-                    player.transform.position += Target.position - player.transform.position;
-                }
+                float step = moveSpeed * Time.deltaTime;
+                player.transform.position = Vector3.MoveTowards(player.transform.position, Target.position, step);
+            }
+            else
+            {
+                finishClimb = false;
+                playerLock = false;
+                player.GetComponent<RigidBodyPlayerController>().climbing = false;
+                player.GetComponent<RigidBodyPlayerController>().rb.useGravity = true;
             }
         }
 	}
@@ -35,7 +43,17 @@ public class ladder : MonoBehaviour {
     {
         if (other.transform.tag == "Wall Collider")
         {
+            player.GetComponent<RigidBodyPlayerController>().climbing = true;
+            playerLock = true;
+        }
+    }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.transform.tag == "Wall Collider")
+        {
+            player.GetComponent<RigidBodyPlayerController>().climbing = false;
+            playerLock = false;
         }
     }
 }

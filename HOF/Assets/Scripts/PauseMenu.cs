@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour {
 
@@ -11,12 +12,27 @@ public class PauseMenu : MonoBehaviour {
     private bool options;
     private bool confirmQuit;
 
-    public void resumeButton()
+    public Button resumeButton;
+    public Button optionsButton;
+    public Button quitButton;
+    public Button yesQuitButton;
+    public Button noQuitButton;
+
+    private void OnEnable()
+    {
+        resumeButton.onClick.AddListener(delegate { resumeButtonPressed(); });
+        optionsButton.onClick.AddListener(delegate { optionsButtonPressed(); });
+        quitButton.onClick.AddListener(delegate { quitButtonPressed(); });
+        yesQuitButton.onClick.AddListener(delegate { yesQuitButtonPressed(); });
+        noQuitButton.onClick.AddListener(delegate { exitQuitConfirmation(); });
+    }
+
+    public void resumeButtonPressed()
     {
         player.unPause();
     }
 
-    public void optionsButton()
+    public void optionsButtonPressed()
     {
         optionsPanel.SetActive(true);
         pauseMenuPanel.SetActive(false);
@@ -24,7 +40,7 @@ public class PauseMenu : MonoBehaviour {
         player.onTopMenu = false;
     }
 
-    public void quitButton()
+    public void quitButtonPressed()
     {
         confirmQuitPanel.SetActive(true);
         pauseMenuPanel.SetActive(false);
@@ -32,7 +48,7 @@ public class PauseMenu : MonoBehaviour {
         player.onTopMenu = false;
     }
     
-    public void confirmQuitButton()
+    public void yesQuitButtonPressed()
     {
         Application.Quit();
     }

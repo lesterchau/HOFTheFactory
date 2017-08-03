@@ -27,13 +27,11 @@ public class Silde : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Q) && cc.grounded){
             slideTimer =Time.time + slideTime;
             capsuleCollider.height = crouchHeight;
-            capsuleCollider.center = new Vector3(0, crouchHeight / 2, 0);
             cc.sliding = true;
         }
         if (Input.GetKeyUp(KeyCode.Q) || Time.time > slideTimer)
         {
             capsuleCollider.height = normalHeight;
-            capsuleCollider.center = new Vector3(0, normalHeight / 2, 0);
             slideTimer = 0f;
             cc.sliding = false;
         }

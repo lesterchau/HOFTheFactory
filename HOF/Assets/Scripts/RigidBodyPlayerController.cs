@@ -19,22 +19,19 @@ public class RigidBodyPlayerController : MonoBehaviour {
     public bool grounded = true;
     private float sprintStopTimer;
     public bool sliding = false;
+    public bool climbing = false;
 
 
     void Awake()
     {
         rb.freezeRotation = true;
-        disToGround = GetComponent<CapsuleCollider>().height / 2;
+        disToGround = (GetComponent<CapsuleCollider>().height / 2) * transform.lossyScale.y;
         player = GetComponent<Player>();
     }
 
     void FixedUpdate()
     {
         grounded = isGrounded();
-        if (!grounded && rb.velocity == Vector3.zero)
-        {
-            grounded = true;
-        }
         if (Time.time > sprintStopTimer && grounded)
         {
             sprinting = false;
@@ -45,6 +42,10 @@ public class RigidBodyPlayerController : MonoBehaviour {
             maxVelocityChange = runSpeed;
             speed = runSpeed;
         }
+        if (climbing && !grounded)
+        {
+            rb.useGravity = false;
+        }
         if (grounded && !player.dead && !sliding)
         {
             float speedMod = 1;
@@ -53,6 +54,10 @@ public class RigidBodyPlayerController : MonoBehaviour {
             if (Input.GetAxis("Vertical") < 0)
             {
                 speedMod = 0.3f;
+            }
+            else if (climbing)
+            {
+                speedMod = 0;
             }
             Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal") * 0.7f , 0, Input.GetAxis("Vertical") * speedMod);
             targetVelocity = transform.TransformDirection(targetVelocity);
@@ -63,7 +68,14 @@ public class RigidBodyPlayerController : MonoBehaviour {
             Vector3 velocityChange = (targetVelocity - velocity);
             velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
             velocityChange.z = Mathf.Clamp(velocityChange.z, -maxVelocityChange, maxVelocityChange);
-            velocityChange.y = 0;
+            if (!climbing)
+            {
+                velocityChange.y = 0;
+            }
+            else if (Input.GetAxis("Vertical")  == 1)
+            {
+                velocityChange.y = 0.5f;
+            }
             rb.AddForce(velocityChange, ForceMode.VelocityChange);
 
             // Jump
@@ -73,6 +85,7 @@ public class RigidBodyPlayerController : MonoBehaviour {
                 falling = true;
             }
         }
+
 
         //if the don't move then the player isn't sprinting
         if (rb.velocity.x == 0 || rb.velocity.z == 0)
@@ -103,6 +116,6 @@ public class RigidBodyPlayerController : MonoBehaviour {
 
     public bool isGrounded()
     {
-        return Physics.Raycast(transform.position, -transform.up, disToGround + 0.05f);
+        return Physics.Raycast(transform.position, -transform.up, disToGround + 0.1f);
     }
 }
